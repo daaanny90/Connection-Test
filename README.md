@@ -1,6 +1,6 @@
 # Connection Test
 
-A simple .bat files that throug the cmd gives a feedback of the actual connection status.
+A simple .bat files that through the cmd gives a feedback of the actual connection status.
 
 The colors (green if the connection is ok, red if not) allow to see immediatly if something is not working.</br>
 
