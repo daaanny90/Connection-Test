@@ -1,4 +1,4 @@
-# Connection-Test.bat
+# Connection Test
 
 A simple .bat files that throug the cmd gives a feedback of the actual connection status.
 
@@ -11,4 +11,4 @@ Below a preview:
 ![ScreenShot](https://github.com/daaanny90/Connection-Test/blob/master/screen2.JPG)
 # installation
 
-just download the connection-test.bat and click twice on it :+1: .
+just download the test_connection.bat and click twice on it :+1: .
