@@ -5,7 +5,7 @@ echo ## CONNECTION TEST ##
 echo #####################
 echo.
 echo. 
-echo This test will check the connection continuosly, showing in real time your connection status, 
+echo This tool will check the connection continuosly, showing in real time your connection status, 
 echo until you decide to stop it with ctrl+C.
 echo.
 :choice
