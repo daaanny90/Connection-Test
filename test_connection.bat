@@ -21,8 +21,6 @@ echo    It will write also a log file. You can find it where this .bat file is.
 echo       The program will check and log the connection status until you decide 
 echo                 to stop it with ctrl+C (or closing the terminal).
 echo.
-echo.
-echo.
 :choice
 set /P c=Do you want to start the connection test[Y/N]?
 if /I "%c%" EQU "Y" goto :test
