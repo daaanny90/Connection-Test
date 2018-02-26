@@ -15,7 +15,7 @@ echo "                                 | ||  __/\__ \ |_                        
 echo "                                  \__\___||___/\__|                           "
 echo "                                                                              "
 echo. 
-echo      This test will check the connection continuosly will generate a log file,
+echo   This test will check the connection continuosly and will generate a log file,
 echo                   until you decide to stop it with ctrl+C.
 echo.
 echo.
