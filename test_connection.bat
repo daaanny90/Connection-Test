@@ -2,21 +2,24 @@
 setlocal enableextensions enabledelayedexpansion
 mode con: cols=82 lines=20
 TITLE CONNECTION TEST
-echo "                                                _   _                         "
-echo "                 ___ ___  _ __  _ __   ___  ___| |_(_) ___  _ __              "
-echo "                / __/ _ \| '_ \| '_ \ / _ \/ __| __| |/ _ \| '_ \             "
-echo "               | (_| (_) | | | | | | |  __/ (__| |_| | (_) | | | |            "
-echo "                \___\___/|_| |_|_| |_|\___|\___|\__|_|\___/|_| |_|            "
-echo "                                                                              "
-echo "                                  _            _                              "
-echo "                                 | |_ ___  ___| |_                            "
-echo "                                 | __/ _ \/ __| __|                           "
-echo "                                 | ||  __/\__ \ |_                            "
-echo "                                  \__\___||___/\__|                           "
-echo "                                                                              "
+echo "                                              _   _                             "
+echo "               ___ ___  _ __  _ __   ___  ___| |_(_) ___  _ __                  "
+echo "              / __/ _ \| '_ \| '_ \ / _ \/ __| __| |/ _ \| '_ \                 "
+echo "             | (_| (_) | | | | | | |  __/ (__| |_| | (_) | | | |                "
+echo "              \___\___/|_| |_|_| |_|\___|\___|\__|_|\___/|_| |_|                "
+echo "                                                                                "
+echo "                                _            _                                  "
+echo "                               | |_ ___  ___| |_                                "
+echo "                               | __/ _ \/ __| __|                               "
+echo "                               | ||  __/\__ \ |_                                "
+echo "                                \__\___||___/\__|                               "
+echo "                                                                                "
 echo. 
-echo   This test will check the connection continuosly and will generate a log file,
-echo                   until you decide to stop it with ctrl+C.
+echo             This test will check every 3 seconds the connection status 
+echo                      and will show it with intuitives colors.
+echo    It will write also a log file. You can find it where this .bat file is.
+echo       The program will check and log the connection status until you decide 
+echo                 to stop it with ctrl+C (or closing the terminal).
 echo.
 echo.
 echo.
