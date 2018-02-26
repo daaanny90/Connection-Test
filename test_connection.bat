@@ -28,7 +28,7 @@ if /I "%c%" EQU "N" goto :exit
 :test
 echo.
 echo :) Starting test...
-echo Connection test started at %time% of the %date% >> C:\Users\spina\Desktop\connection_log_%date%.txt
+echo Connection test started at %time% of the %date% >> connection_log_%date%.txt
 timeout /t 3 > NUL
 cls
 
@@ -56,7 +56,7 @@ echo.
 echo                 [91m ############################################### [0m
 echo                 [91m ##  CONNECTION STATUS: INTERRUPTED %hour%:%min%:%secs%  ## [0m
 echo                 [91m ############################################### [0m
-echo The connection was INTERRUPTED at %hour%:%min%:%secs% >> C:\Users\spina\Desktop\connection_log_%date%.txt
+echo The connection was INTERRUPTED at %hour%:%min%:%secs% >> connection_log_%date%.txt
 )else (
 echo.
 echo.
@@ -69,7 +69,7 @@ echo.
 echo                [92m ############################################### [0m
 echo                [92m ##        CONNECTION STATUS: OK %hour%:%min%:%secs%     ## [0m
 echo                [92m ############################################### [0m
-echo The connection was OK at %hour%:%min%:%secs% >> C:\Users\spina\Desktop\connection_log_%date%.txt
+echo The connection was OK at %hour%:%min%:%secs% >> connection_log_%date%.txt
 )
 timeout /t 2 > NUL
 cls
